@@ -2,7 +2,7 @@ Automated table availability for a popular table reservation platform
 
 This is a JavaScript project I put together for a friend.
 
-Fed up with constantly refreshing the website in order to find a table at particular time and date he wanted an automated solution.
+Instead of constantly refreshing the website in order to find a table at particular time and date he wanted an automated solution.
 
 What i used to achieve this:
 
