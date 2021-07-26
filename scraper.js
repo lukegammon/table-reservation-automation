@@ -33,6 +33,7 @@ async function getAvailability() {
 function sendEmail(result) {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
+    secure: true,
     auth: {
       user: process.env.SENDERS_EMAIL, // Senders Gmail Username (Do Not Hardcode)
       pass: process.env.SENDERS_PASSWORD // Senders Gmail Password (Do Not Hardcode)
