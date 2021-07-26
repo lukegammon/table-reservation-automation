@@ -55,10 +55,10 @@ function sendEmail(result) {
 }
 
 // Run getAvailibility() every X milliseconds to auto search until booking timeslot is found
-const searchInterval = 10000;
+const searchInterval = 1800000;
 const repeater = setInterval(async () => {
   const isTable = await getAvailability();
   if(isTable) {
     clearInterval(repeater);
   }
-}, 10000);
+}, searchInterval);
